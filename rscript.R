@@ -4,5 +4,5 @@ make_data <- function(){
 }
 
 change_data <- function(df){
-  transform(df, x2 = x/3)
+  transform(df, x2 = x/10)
 }
