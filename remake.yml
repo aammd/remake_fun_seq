@@ -5,7 +5,7 @@ targets:
 
   all:
     depends:
-      - data2
+      - data3
 
   data:
     command: make_data()
@@ -13,3 +13,6 @@ targets:
     
   data2:
     command: change_data(data)
+    
+  data3:
+    command: change_the_data(data2)
