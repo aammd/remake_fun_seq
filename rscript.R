@@ -10,4 +10,4 @@ change_data <- function(df){
 }
 
 change_the_data <- . %>%
-  transform(x3 = x/20)
+  transform(x3 = x/200)
