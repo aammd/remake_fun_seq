@@ -1,0 +1,15 @@
+sources:
+  - rscript.R
+  
+targets:
+
+  all:
+    depends:
+      - data2
+
+  data:
+    command: make_data()
+      
+    
+  data2:
+    command: change_data(data)
